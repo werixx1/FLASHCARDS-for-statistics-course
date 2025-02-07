@@ -5,7 +5,7 @@
   <small>    
     super super basic flashcards program
     with photos since you have to pay for it 
-    if you're using quizlet and I'm not doing that<3
+    if you're using quizlet and i wont be doing that<3
 </small>
 </div>
 
