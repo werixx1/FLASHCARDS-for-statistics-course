@@ -5,17 +5,18 @@ import os
 
 
 definitions = [
-    {"definition": "Statystyka testowa dla dużej próby", "image_path": "testy_duza.jpg"},
-    {"definition": "Statystyka testowa dla małej próby", "image_path": "testy_mala.jpg"},
-    {"definition": "ok", "image_path": "me.jpg"}
+    {"definition": "Statystyka testowa dla dużej próby", "image_path": "imgs/testy_duza.jpg"},
+    {"definition": "Statystyka testowa dla małej próby", "image_path": "imgs/testy_mala.jpg"},
+    {"definition": "ok", "image_path": "imgs/me.jpg"}
 ]
 
 class FlashcardApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("Fiszki STATYSTYKA egzamin")
+        self.title("super epickie fiszki")
         self.geometry("500x500")
+        self.resizable(False, False)
 
         self.current_card = 0
         self.image_label = None
